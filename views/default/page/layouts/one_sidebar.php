@@ -22,7 +22,7 @@ if (isset($vars['class'])) {
 ?>
 
 <div class="<?php echo $class; ?>">
-	<div class="col-md-9">
+	<div class="col-md-8">
 		<?php
 			echo elgg_extract('nav', $vars, elgg_view('navigation/breadcrumbs'));
 
@@ -40,7 +40,7 @@ if (isset($vars['class'])) {
 		?>
 	</div>
 
-	<div class="col-md-3">
+	<div class="col-md-4">
 		<?php
 		echo elgg_view('page/elements/sidebar', $vars);
 		?>
