@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<id>srokap_bootstrap</id>
+	<name>Srokap Bootstrap Theme</name>
+	<author>Paweł Sroka (srokap@gmail.com)</author>
+	<version>1.0-dev</version>
+	<description>Plugin created as most simplistic usage of Twitter Bootstrap as a Elgg theme.</description>
+	<website>http://srokap.pl/</website>
+	<copyright>(C) Paweł Sroka 2014</copyright>
+	<license>http://opensource.org/licenses/BSD-3-Clause</license>
+	
+	<category>theme</category>
+
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+</plugin_manifest>
