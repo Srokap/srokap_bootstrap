@@ -51,13 +51,8 @@ __BODY;
 }
 
 $body .= <<<__BODY
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container">
-		$site_menu
-	</div>
-</nav>
-
 <div class="elgg-page elgg-page-default">
+
 	<div class="elgg-page-messages">
 		$messages
 	</div>
@@ -66,6 +61,13 @@ $body .= <<<__BODY
 			$header
 		</div>
 	</div>
+
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			$site_menu
+		</div>
+	</nav>
+
 	<div class="elgg-page-body">
 		<div class="elgg-inner container">
 			$content
